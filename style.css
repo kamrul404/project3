@@ -1,0 +1,101 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
+
+ body{
+    font-family: 'Poppins',sans-serif;
+    color: #0f0d0d00;
+ }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.hover-link{
+    color: #000000;
+    transition: 0.5s ease-out;
+}
+.hover-link:hover{
+    text-decoration: underline crimson;
+}
+.primary-button{
+    background-color: #0cad9b8e;
+    border-radius: 6px;
+    font-weight: 700;
+    color: white !important;
+    padding: 12px 24px;
+    box-shadow: 0 0 2px #1117168e;
+    transition: 0.5s ease-out;
+
+}
+.primary-button:hover{
+    background-color: #0e3287;
+}
+.secondary-button{
+    border: 0.5px solid #1117168e;
+    border-radius: 6px;
+    font-weight: 700;
+    color: #0cad9b8e !important;
+    padding: 12px 24px;
+    transition: 0.5s ease-out;
+
+}
+.secondary-button:hover{
+    border-color: #0c45828e;
+    color: #135c508e!important;
+}
+.header-section{
+    display: flex;
+   
+    padding: 30px 30px 30px 30px;
+    justify-content: space-between;
+   
+}
+.left-header{
+    justify-content: space-between;
+    gap: 60px;
+   padding-bottom: 10px;
+}
+.left-header-text  {
+padding-top: 5px;
+
+text-decoration: none;
+}
+.left-sub-header a{
+    text-decoration: none;
+}
+.middle-header ul, li{
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    text-decoration: none;
+    font-family: inter;
+    font-weight: bold
+    
+
+}
+.middle-header ul, li a{
+    text-decoration: none;
+}
+.right-header{
+    margin-right: 60px;
+}
+.right-header ul, li{
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+/*Header section End*/
+ul.sub-header-item li {
+    margin-right: 60px; /
+}
+h2{
+    font: bold;
+    color: #000000;
+}
+.banner{
+   justify-content: space-between;
+}
+.left-side{
+    margin-right: 15px;
+    align-items: flex-start;
+}
