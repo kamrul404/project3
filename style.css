@@ -196,3 +196,72 @@ h3{
 .service-desc h3{
     margin-top: 15px;
 }
+
+.s-head{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; 
+    margin-top: 200px;
+}
+.s-p{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 100% */
+}
+label {
+    width:250px;
+    height:100px;
+    position: relative;
+    display: block;
+    background: #B00000;;
+    border-radius: 73px;
+  
+    cursor: pointer;
+  }
+  label:after {
+    content: "";
+    width:90px;
+    height: 90px;
+    position: absolute;
+    top: 5px;
+    left:5px;
+    background: linear-gradient(180deg,#B00000,#fff);
+    border-radius: 90px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  }
+  input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  input:checked + label {
+    background: #B00000;;
+  }
+  input:checked + label:after {
+    left:245px;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg,#B00000);
+  }
+  label, label:after {
+    transition: 0.3s
+  }
+  label:active:after{ 
+    width: 130px; 
+  }
+.switch{
+   margin-left: 490px;
+   width: 50%;
+   
+}
+.p2-position{
+    margin-left: 258px;
+    margin-top: 35px;
+}
