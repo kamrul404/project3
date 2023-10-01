@@ -18,13 +18,14 @@
     text-decoration: underline crimson;
 }
 .primary-button{
-    background-color: #0cad9b8e;
+    background-color: #B00000;
     border-radius: 6px;
     font-weight: 700;
     color: white !important;
     padding: 12px 24px;
     box-shadow: 0 0 2px #1117168e;
     transition: 0.5s ease-out;
+    
 
 }
 p{
@@ -32,10 +33,13 @@ p{
 }
 
 .primary-button:hover{
-    background-color: #0e3287;
+    background-color: #eaecf0;
+}
+.btn-text{
+    color: white;
 }
 .secondary-button{
-    border: 0.5px solid #1117168e;
+    border: 0.5px solid #100f0fb1;
     border-radius: 6px;
     font-weight: 700;
     color: #0cad9b8e !important;
@@ -44,8 +48,11 @@ p{
 
 }
 .secondary-button:hover{
-    border-color: #0c45828e;
+    border-color:#B00000;
     color: #135c508e!important;
+}
+.btn-text-l{
+    color: #000000;
 }
 .header-section{
     display: flex;
@@ -97,6 +104,11 @@ h2{
     font-size: 64px;
     color: #000000;
 }
+h1{
+    font-family:Inter, sans-serif;
+    color: #000000;
+    font-size:  48px;
+}
 .banner{
    justify-content: space-between;
 }
@@ -135,5 +147,52 @@ h2{
   margin-bottom: -40px;
 }
 .btn-class{
-    margin-top: 90px;
+    margin-top: 50px;
+}
+.box{
+    height: 224px;
+    width: 573px;
+}
+
+.company-logo{
+    margin-top: -120px;
+    
+}
+.company-add{
+    justify-content: space-between;
+}
+.f1-3{
+    justify-content: space-between;
+    gap: 50px;
+}
+.f2-3{
+    justify-content: space-between;
+    gap: 50px;
+}
+.box-2{
+    width: 252px;
+    height: 72px;
+}
+h3{
+    color: #000000;
+    font-size: 20px;
+}
+.services-logo{
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-desc {
+    text-align: center;
+}
+
+.service-desc img,
+.service-desc h3,
+.service-desc p {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.service-desc h3{
+    margin-top: 15px;
 }
